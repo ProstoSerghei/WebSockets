@@ -8,13 +8,14 @@ import logs.logs_configs.client_log_config
 from common.variables import DEFAULT_PORT, DEFAULT_IP_ADDRESS, \
     ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR
 from common.utils import send_message, get_message
-
+from decos import log
 
 
 CLIENT_LOGGER = logging.getLogger('client')
 
 
 # Срипт клиента
+@log
 def create_presense(account_name='Guest'):
     out = {
         ACTION: PRESENCE,
@@ -27,6 +28,7 @@ def create_presense(account_name='Guest'):
     return out
 
 
+@log
 def process_answer(message):
     '''
     Функция разбирает ответ сервера

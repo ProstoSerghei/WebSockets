@@ -1,18 +1,79 @@
-2023-06-27 20:13:26,423 CRITICAL server_log_config.py Критическая ошибка
-2023-06-27 20:13:26,425 ERROR server_log_config.py Ошибка
-2023-06-27 20:13:26,425 DEBUG server_log_config.py Отладочная информация
-2023-06-27 20:13:26,425 INFO server_log_config.py Информационное сообщение
-2023-06-27 20:13:36,402 CRITICAL server_log_config.py Критическая ошибка
-2023-06-27 20:13:36,403 ERROR server_log_config.py Ошибка
-2023-06-27 20:13:36,403 DEBUG server_log_config.py Отладочная информация
-2023-06-27 20:13:36,403 INFO server_log_config.py Информационное сообщение
-2023-06-27 20:13:43,233 CRITICAL server_log_config.py Критическая ошибка
-2023-06-27 20:13:43,233 ERROR server_log_config.py Ошибка
-2023-06-27 20:13:43,234 DEBUG server_log_config.py Отладочная информация
-2023-06-27 20:13:43,234 INFO server_log_config.py Информационное сообщение
-2023-06-27 20:30:28,958 INFO server.py Server is running at 127.0.0.1:7777
-2023-06-27 20:30:53,205 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61974)
-2023-06-27 20:30:53,205 INFO server.py Сообщение {'action': 'presence', 'time': 1687887053.2056522, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 61974)
-2023-06-27 20:30:53,205 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1687887053.2056522, 'user': {'account_name': 'Guest'}}
-2023-06-27 20:30:53,205 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-27 20:30:53,207 INFO server.py Соединение с клиентом ('127.0.0.1', 61974) закрывается.
+2023-06-28 00:38:09,387 INFO server.py Server is running at 127.0.0.1:7777
+2023-06-28 00:38:31,993 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52686)
+2023-06-28 00:38:32,010 INFO server.py Сообщение {'action': 'presence', 'time': 1687901911.9934597, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52686)
+2023-06-28 00:38:32,010 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901911.9934597, 'user': {'account_name': 'Guest'}}
+2023-06-28 00:38:32,024 DEBUG decos.py Была вызвана функция process_client_message
+с параметрами: ({'action': 'presence', 'time': 1687901911.9934597, 'user': {'account_name': 'Guest'}},), {}
+Вызов из модуля: __main__Вызов из функции: main()Вызов из функции: main
+2023-06-28 00:38:32,025 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-28 00:38:32,025 INFO server.py Соединение с клиентом ('127.0.0.1', 52686) закрывается.
+2023-06-28 00:39:28,879 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52709)
+2023-06-28 00:39:28,880 INFO server.py Сообщение {'action': 'presence', 'time': 1687901968.8794332, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52709)
+2023-06-28 00:39:28,880 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901968.8794332, 'user': {'account_name': 'Guest'}}
+2023-06-28 00:39:28,880 DEBUG decos.py Была вызвана функция process_client_message
+с параметрами: ({'action': 'presence', 'time': 1687901968.8794332, 'user': {'account_name': 'Guest'}},), {}
+Вызов из модуля: __main__Вызов из функции: main()Вызов из функции: main
+2023-06-28 00:39:28,881 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-28 00:39:28,881 INFO server.py Соединение с клиентом ('127.0.0.1', 52709) закрывается.
+2023-06-28 00:39:36,821 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52713)
+2023-06-28 00:39:36,822 INFO server.py Сообщение {'action': 'presence', 'time': 1687901976.8213246, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52713)
+2023-06-28 00:39:36,822 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901976.8213246, 'user': {'account_name': 'Guest'}}
+2023-06-28 00:39:36,823 DEBUG decos.py Была вызвана функция process_client_message
+с параметрами: ({'action': 'presence', 'time': 1687901976.8213246, 'user': {'account_name': 'Guest'}},), {}
+Вызов из модуля: __main__Вызов из функции: main()Вызов из функции: main
+2023-06-28 00:39:36,823 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-28 00:39:36,823 INFO server.py Соединение с клиентом ('127.0.0.1', 52713) закрывается.
+2023-06-28 00:39:46,771 INFO server.py Server is running at 127.0.0.1:7777
+2023-06-28 00:39:49,324 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52719)
+2023-06-28 00:39:49,325 INFO server.py Сообщение {'action': 'presence', 'time': 1687901989.32435, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52719)
+2023-06-28 00:39:49,325 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901989.32435, 'user': {'account_name': 'Guest'}}
+2023-06-28 00:39:49,325 DEBUG server.py Была вызвана функция process_client_message
+с параметрами: ({'action': 'presence', 'time': 1687901989.32435, 'user': {'account_name': 'Guest'}},), {}
+Вызов из модуля: __main__Вызов из функции: main()
+2023-06-28 00:39:49,325 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-28 00:39:49,325 INFO server.py Соединение с клиентом ('127.0.0.1', 52719) закрывается.
+2023-06-28 00:40:35,497 INFO server.py Server is running at 127.0.0.1:7777
+2023-06-28 00:40:38,140 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52743)
+2023-06-28 00:40:38,141 INFO server.py Сообщение {'action': 'presence', 'time': 1687902038.1401205, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52743)
+2023-06-28 00:40:38,141 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687902038.1401205, 'user': {'account_name': 'Guest'}}
+2023-06-28 00:40:38,142 DEBUG server.py 
+Была вызвана функция process_client_message
+с параметрами: ({'action': 'presence', 'time': 1687902038.1401205, 'user': {'account_name': 'Guest'}},), {}
+Вызов из модуля: __main__
+Вызов из функции: main()
+
+2023-06-28 00:40:38,142 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-28 00:40:38,142 INFO server.py Соединение с клиентом ('127.0.0.1', 52743) закрывается.
+2023-06-28 00:51:04,664 INFO server.py Server is running at 127.0.0.1:7777
+2023-06-28 00:51:09,612 INFO server.py Установлено соедение с ПК ('127.0.0.1', 53082)
+2023-06-28 00:51:09,613 DEBUG server.py 
+Была вызвана функция get_message
+с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53082)>,), {}
+Вызов из модуля: common.utils
+Вызов из функции: main()
+
+2023-06-28 00:51:09,613 INFO server.py Сообщение {'action': 'presence', 'time': 1687902669.6125278, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 53082)
+2023-06-28 00:51:09,613 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687902669.6125278, 'user': {'account_name': 'Guest'}}
+2023-06-28 00:51:09,613 DEBUG server.py 
+Была вызвана функция process_client_message
+с параметрами: ({'action': 'presence', 'time': 1687902669.6125278, 'user': {'account_name': 'Guest'}},), {}
+Вызов из модуля: __main__
+Вызов из функции: main()
+
+2023-06-28 00:51:09,613 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-28 00:51:09,613 DEBUG server.py 
+Была вызвана функция send_message
+с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53082)>, {'response': 200}), {}
+Вызов из модуля: common.utils
+Вызов из функции: main()
+
+2023-06-28 00:51:09,613 INFO server.py Соединение с клиентом ('127.0.0.1', 53082) закрывается.
+2023-06-28 00:52:38,837 INFO server.py Server is running at 127.0.0.1:7777
+2023-06-28 00:52:41,132 INFO server.py Установлено соедение с ПК ('127.0.0.1', 53123)
+2023-06-28 00:52:41,133 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53123)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-06-28 00:52:41,133 INFO server.py Сообщение {'action': 'presence', 'time': 1687902761.1321042, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 53123)
+2023-06-28 00:52:41,133 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687902761.1321042, 'user': {'account_name': 'Guest'}}
+2023-06-28 00:52:41,133 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1687902761.1321042, 'user': {'account_name': 'Guest'}},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-06-28 00:52:41,133 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-28 00:52:41,133 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53123)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-06-28 00:52:41,133 INFO server.py Соединение с клиентом ('127.0.0.1', 53123) закрывается.
