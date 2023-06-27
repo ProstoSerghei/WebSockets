@@ -1,12 +1,16 @@
 import json
 import sys
+import logging
 from socket import *
 
+import logs.logs_configs.server_log_config
 from common.variables import DEFAULT_IP_ADDRESS, DEFAULT_PORT, MAX_CONNECTIONS, \
     ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR
 from common.utils import get_message, send_message
 
 
+
+SERVER_LOGGER = logging.getLogger('server')
 
 # Скрипт сервера
 def process_client_message(message):
@@ -18,7 +22,7 @@ def process_client_message(message):
     :param message:
     :return dict:
     '''
-
+    SERVER_LOGGER.debug(f'Разбор сообщения: {message}')
     if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
             and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
         return {RESPONSE: 200}
@@ -38,10 +42,11 @@ def main():
         if listen_port < 1024 or listen_port > 65535:
             raise ValueError
     except IndexError:
-        print('После параметра -\'p\' необходимо указать номер порта.')
+        SERVER_LOGGER.critical('После параметра -\'p\' необходимо указать номер порта.')
         sys.exit(1)
     except ValueError:
-        print('В качестве порт может быть указано только число в диапазоне от 1024 до 65535.')
+        SERVER_LOGGER.critical(f'Попытка запуска сервера с указанием неподходящего порта '
+                               f'{listen_port}. Допустимы адреса с 1024 до 65535.')
         sys.exit(1)
     
     try:
@@ -50,7 +55,7 @@ def main():
         else:
             listen_address = DEFAULT_IP_ADDRESS
     except IndexError:
-        print(
+        SERVER_LOGGER.critical(
             'После параметра -\'a\' необходимо указать IP-адрес, который будет слушать сервер.'
         )
         sys.exit(1)
@@ -62,17 +67,20 @@ def main():
 
     # Слушаем порт
     server_socket.listen(MAX_CONNECTIONS)
-    print(f'Server is running at {listen_address}:{listen_port}')
+    SERVER_LOGGER.info(f'Server is running at {listen_address}:{listen_port}')
     while True:
         client, client_address = server_socket.accept()
+        SERVER_LOGGER.info(f'Установлено соедение с ПК {client_address}')
         try:
             message_from_client = get_message(client)
-            print(message_from_client)
+            SERVER_LOGGER.info(f'Сообщение {message_from_client}, от клиента {client_address}')
             response = process_client_message(message_from_client)
+            SERVER_LOGGER.info(f'Cформирован ответ клиенту {response}')
             send_message(client, response)
+            SERVER_LOGGER.info(f'Соединение с клиентом {client_address} закрывается.')
             client.close()
         except (ValueError, json.JSONDecodeError):
-            print(f'Принято некорректное сообщение от {client_address}')
+            SERVER_LOGGER.error(f'Принято некорректное сообщение от {client_address}')
             client.close()
 
 
