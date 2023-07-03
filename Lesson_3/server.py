@@ -7,12 +7,14 @@ import logs.logs_configs.server_log_config
 from common.variables import DEFAULT_IP_ADDRESS, DEFAULT_PORT, MAX_CONNECTIONS, \
     ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR
 from common.utils import get_message, send_message
+from decos import log
 
 
 
 SERVER_LOGGER = logging.getLogger('server')
 
 # Скрипт сервера
+@log
 def process_client_message(message):
     '''
     Обработчик сообщений от клиентов, принимает словарь -
@@ -88,10 +90,3 @@ if __name__ == '__main__':
     main()
 
 
-
-"""
-Output:
-
-Server is running at 127.0.0.1:7777
-{'action': 'presence', 'time': 1686864745.4811676, 'user': {'account_name': 'Guest'}}
-"""

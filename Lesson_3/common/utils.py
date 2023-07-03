@@ -1,9 +1,12 @@
 import json
+import sys
+
 from .variables import MAX_PACKAGE_LENGTH, ENCODING
 
+sys.path.append('../')
+from decos import log
 
-
-
+@log
 def get_message(sock):
     '''
     Утилита приема и декодирования сообщения
@@ -21,7 +24,7 @@ def get_message(sock):
         raise ValueError
     raise ValueError
 
-
+@log
 def send_message(sock, message):
     '''
     Утилита кодирования и отправки сообщения
