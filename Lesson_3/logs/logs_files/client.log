@@ -411,3 +411,182 @@
 2023-07-04 12:33:30,499 INFO client.py Получено сообщение от пользователя Guest:
 Как дела?
 2023-07-04 12:33:30,499 DEBUG client.py Была вызвана функция message_from_server с параметрами: ({'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:43:46,929 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:43:46,929 INFO client.py Запущен клиент с парамертами: имя - sergheiадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:43:46,930 DEBUG client.py Сформировано presence сообщение для пользователя serghei
+2023-07-04 15:43:46,931 DEBUG client.py Была вызвана функция create_presense с параметрами: ('serghei',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:43:46,931 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54597), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474626.930819, 'user': {'account_name': 'serghei'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:43:47,442 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54597), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:43:47,443 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:43:47,443 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:43:47,443 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:43:59,152 DEBUG client.py Была вызвана функция create_exit_message с параметрами: ('serghei',), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:43:59,153 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54597), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1688474639.1522982, 'account_name': 'serghei'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:43:59,654 DEBUG threading.py Была вызвана функция user_interactive с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54597), raddr=('127.0.0.1', 7777)>, 'serghei'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:44:10,229 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,229 INFO client.py Запущен клиент с парамертами: имя - sergheiадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:44:10,230 DEBUG client.py Сформировано presence сообщение для пользователя serghei
+2023-07-04 15:44:10,230 DEBUG client.py Была вызвана функция create_presense с параметрами: ('serghei',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,230 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 54607), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474650.2307146, 'user': {'account_name': 'serghei'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:44:10,624 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,624 INFO client.py Запущен клиент с парамертами: имя - vladадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:44:10,625 DEBUG client.py Сформировано presence сообщение для пользователя vlad
+2023-07-04 15:44:10,626 DEBUG client.py Была вызвана функция create_presense с параметрами: ('vlad',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,626 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=528, family=2, type=1, proto=0, laddr=('127.0.0.1', 54608), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474650.6256473, 'user': {'account_name': 'vlad'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:44:10,627 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 54607), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:44:10,627 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:44:10,627 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,627 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:44:10,982 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,982 INFO client.py Запущен клиент с парамертами: имя - petroадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:44:10,984 DEBUG client.py Сформировано presence сообщение для пользователя petro
+2023-07-04 15:44:10,984 DEBUG client.py Была вызвана функция create_presense с параметрами: ('petro',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,984 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=464, family=2, type=1, proto=0, laddr=('127.0.0.1', 54610), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474650.9847162, 'user': {'account_name': 'petro'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:44:10,985 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=528, family=2, type=1, proto=0, laddr=('127.0.0.1', 54608), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:44:10,985 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:44:10,985 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:10,985 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:44:11,496 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=464, family=2, type=1, proto=0, laddr=('127.0.0.1', 54610), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:44:11,497 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:44:11,497 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:44:11,497 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:45:23,544 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:23,544 INFO client.py Запущен клиент с парамертами: имя - sergheiадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:45:23,545 DEBUG client.py Сформировано presence сообщение для пользователя serghei
+2023-07-04 15:45:23,545 DEBUG client.py Была вызвана функция create_presense с параметрами: ('serghei',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:23,546 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=532, family=2, type=1, proto=0, laddr=('127.0.0.1', 54638), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474723.5458224, 'user': {'account_name': 'serghei'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:45:23,909 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:23,909 INFO client.py Запущен клиент с парамертами: имя - vladадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:45:23,909 DEBUG client.py Сформировано presence сообщение для пользователя vlad
+2023-07-04 15:45:23,910 DEBUG client.py Была вызвана функция create_presense с параметрами: ('vlad',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:23,910 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=444, family=2, type=1, proto=0, laddr=('127.0.0.1', 54639), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474723.9094238, 'user': {'account_name': 'vlad'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:45:23,910 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=532, family=2, type=1, proto=0, laddr=('127.0.0.1', 54638), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:45:23,910 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:45:23,911 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:23,911 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:45:24,269 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:24,269 INFO client.py Запущен клиент с парамертами: имя - petroадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:45:24,270 DEBUG client.py Сформировано presence сообщение для пользователя petro
+2023-07-04 15:45:24,270 DEBUG client.py Была вызвана функция create_presense с параметрами: ('petro',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:24,270 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 54641), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474724.2704146, 'user': {'account_name': 'petro'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:45:24,270 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=444, family=2, type=1, proto=0, laddr=('127.0.0.1', 54639), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:45:24,271 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:45:24,271 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:24,271 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:45:24,786 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 54641), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:45:24,786 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:45:24,787 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:45:24,787 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:45:43,642 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 54641), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'petro', 'to': 'vlad', 'time': 1688474743.6418064, 'mess_text': 'privet'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:45:43,642 INFO client.py Отправлено сообщение: {'action': 'message', 'sender': 'petro', 'to': 'vlad', 'time': 1688474743.6418064, 'mess_text': 'privet'}
+2023-07-04 15:45:43,642 DEBUG client.py Была вызвана функция create_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 54641), raddr=('127.0.0.1', 7777)>, 'petro'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:47:19,837 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:19,837 INFO client.py Запущен клиент с парамертами: имя - sergheiадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:47:19,838 DEBUG client.py Сформировано presence сообщение для пользователя serghei
+2023-07-04 15:47:19,839 DEBUG client.py Была вызвана функция create_presense с параметрами: ('serghei',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:19,839 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=532, family=2, type=1, proto=0, laddr=('127.0.0.1', 54689), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474839.838766, 'user': {'account_name': 'serghei'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:47:20,175 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:20,176 INFO client.py Запущен клиент с парамертами: имя - vladадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:47:20,176 DEBUG client.py Сформировано presence сообщение для пользователя vlad
+2023-07-04 15:47:20,177 DEBUG client.py Была вызвана функция create_presense с параметрами: ('vlad',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:20,177 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=324, family=2, type=1, proto=0, laddr=('127.0.0.1', 54691), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474840.1765747, 'user': {'account_name': 'vlad'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:47:20,177 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=532, family=2, type=1, proto=0, laddr=('127.0.0.1', 54689), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:47:20,178 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:47:20,178 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:20,178 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:47:20,491 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:20,491 INFO client.py Запущен клиент с парамертами: имя - petroадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:47:20,492 DEBUG client.py Сформировано presence сообщение для пользователя petro
+2023-07-04 15:47:20,492 DEBUG client.py Была вызвана функция create_presense с параметрами: ('petro',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:20,492 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=336, family=2, type=1, proto=0, laddr=('127.0.0.1', 54692), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474840.492897, 'user': {'account_name': 'petro'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:47:20,493 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=324, family=2, type=1, proto=0, laddr=('127.0.0.1', 54691), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:47:20,493 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:47:20,493 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:20,493 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:47:21,001 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=336, family=2, type=1, proto=0, laddr=('127.0.0.1', 54692), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:47:21,002 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:47:21,002 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:47:21,002 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:47:44,602 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=336, family=2, type=1, proto=0, laddr=('127.0.0.1', 54692), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'petro', 'to': 'vlad', 'time': 1688474864.6015472, 'mess_text': 'privet'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:47:44,602 INFO client.py Отправлено сообщение: {'action': 'message', 'sender': 'petro', 'to': 'vlad', 'time': 1688474864.6015472, 'mess_text': 'privet'}
+2023-07-04 15:47:44,602 DEBUG client.py Была вызвана функция create_message с параметрами: (<socket.socket fd=336, family=2, type=1, proto=0, laddr=('127.0.0.1', 54692), raddr=('127.0.0.1', 7777)>, 'petro'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:49:58,335 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:58,335 INFO client.py Запущен клиент с парамертами: имя - sergheiадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:49:58,336 DEBUG client.py Сформировано presence сообщение для пользователя serghei
+2023-07-04 15:49:58,336 DEBUG client.py Была вызвана функция create_presense с параметрами: ('serghei',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:58,336 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=456, family=2, type=1, proto=0, laddr=('127.0.0.1', 54760), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474998.3369138, 'user': {'account_name': 'serghei'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:49:58,668 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:58,668 INFO client.py Запущен клиент с парамертами: имя - vladадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:49:58,669 DEBUG client.py Сформировано presence сообщение для пользователя vlad
+2023-07-04 15:49:58,670 DEBUG client.py Была вызвана функция create_presense с параметрами: ('vlad',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:58,670 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 54761), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474998.66961, 'user': {'account_name': 'vlad'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:49:58,670 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=456, family=2, type=1, proto=0, laddr=('127.0.0.1', 54760), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:49:58,670 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:49:58,671 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:58,671 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:49:59,006 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:59,007 INFO client.py Запущен клиент с парамертами: имя - petroадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:49:59,007 DEBUG client.py Сформировано presence сообщение для пользователя petro
+2023-07-04 15:49:59,008 DEBUG client.py Была вызвана функция create_presense с параметрами: ('petro',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:59,008 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 54762), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688474999.007185, 'user': {'account_name': 'petro'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:49:59,008 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 54761), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:49:59,008 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:49:59,008 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:59,008 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:49:59,520 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 54762), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:49:59,520 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:49:59,520 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:49:59,520 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:50:12,519 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 54762), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'petro', 'to': 'vlad', 'time': 1688475012.5198135, 'mess_text': 'privet'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:50:12,519 INFO client.py Отправлено сообщение: {'action': 'message', 'sender': 'petro', 'to': 'vlad', 'time': 1688475012.5198135, 'mess_text': 'privet'}
+2023-07-04 15:50:12,520 DEBUG client.py Была вызвана функция create_message с параметрами: (<socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 54762), raddr=('127.0.0.1', 7777)>, 'petro'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:50:12,846 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 54761), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:50:12,846 ERROR client.py Получено некорректное сообщение с сервера: {'action': 'message', 'sender': 'petro', 'to': 'vlad', 'time': 1688475012.5198135, 'mess_text': 'privet'}
+2023-07-04 15:53:20,463 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:20,464 INFO client.py Запущен клиент с парамертами: имя - sergheiадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:53:20,464 DEBUG client.py Сформировано presence сообщение для пользователя serghei
+2023-07-04 15:53:20,465 DEBUG client.py Была вызвана функция create_presense с параметрами: ('serghei',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:20,465 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 54847), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688475200.4649224, 'user': {'account_name': 'serghei'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:53:20,863 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:20,864 INFO client.py Запущен клиент с парамертами: имя - vladадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:53:20,865 DEBUG client.py Сформировано presence сообщение для пользователя vlad
+2023-07-04 15:53:20,865 DEBUG client.py Была вызвана функция create_presense с параметрами: ('vlad',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:20,866 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54848), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688475200.8652568, 'user': {'account_name': 'vlad'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:53:20,866 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 54847), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:53:20,866 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:53:20,867 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:20,867 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:53:21,239 DEBUG client.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:21,240 INFO client.py Запущен клиент с парамертами: имя - petroадрес сервера: 127.0.0.1, порт: 7777
+2023-07-04 15:53:21,240 DEBUG client.py Сформировано presence сообщение для пользователя petro
+2023-07-04 15:53:21,241 DEBUG client.py Была вызвана функция create_presense с параметрами: ('petro',), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:21,242 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=304, family=2, type=1, proto=0, laddr=('127.0.0.1', 54849), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688475201.240913, 'user': {'account_name': 'petro'}}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:53:21,242 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54848), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:53:21,242 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:53:21,243 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:21,243 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:53:21,743 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=304, family=2, type=1, proto=0, laddr=('127.0.0.1', 54849), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 15:53:21,744 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-04 15:53:21,744 DEBUG client.py Была вызвана функция process_answer с параметрами: ({'response': 200},), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 15:53:21,744 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-04 15:53:51,843 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54848), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'vlad', 'to': 'serghei', 'time': 1688475231.8424115, 'mess_text': 'privet'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:53:51,843 INFO client.py Отправлено сообщение: {'action': 'message', 'sender': 'vlad', 'to': 'serghei', 'time': 1688475231.8424115, 'mess_text': 'privet'}
+2023-07-04 15:53:51,843 DEBUG client.py Была вызвана функция create_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54848), raddr=('127.0.0.1', 7777)>, 'vlad'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:53:52,268 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 54847), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:53:52,269 INFO client.py Сообщение от vlad:
+privet
+2023-07-04 15:54:20,787 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 54847), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'serghei', 'to': 'vlad', 'time': 1688475260.7865908, 'mess_text': 'Kak dela?'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:54:20,787 INFO client.py Отправлено сообщение: {'action': 'message', 'sender': 'serghei', 'to': 'vlad', 'time': 1688475260.7865908, 'mess_text': 'Kak dela?'}
+2023-07-04 15:54:20,787 DEBUG client.py Была вызвана функция create_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 54847), raddr=('127.0.0.1', 7777)>, 'serghei'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:54:20,924 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54848), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:54:20,924 INFO client.py Сообщение от serghei:
+Kak dela?
+2023-07-04 15:54:44,125 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=304, family=2, type=1, proto=0, laddr=('127.0.0.1', 54849), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'petro', 'to': 'serghei', 'time': 1688475284.124066, 'mess_text': 'Tebe vlad pisal?'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:54:44,125 INFO client.py Отправлено сообщение: {'action': 'message', 'sender': 'petro', 'to': 'serghei', 'time': 1688475284.124066, 'mess_text': 'Tebe vlad pisal?'}
+2023-07-04 15:54:44,125 DEBUG client.py Была вызвана функция create_message с параметрами: (<socket.socket fd=304, family=2, type=1, proto=0, laddr=('127.0.0.1', 54849), raddr=('127.0.0.1', 7777)>, 'petro'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:54:44,418 DEBUG client.py Была вызвана функция get_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 54847), raddr=('127.0.0.1', 7777)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:54:44,418 INFO client.py Сообщение от petro:
+Tebe vlad pisal?
+2023-07-04 15:55:04,279 DEBUG client.py Была вызвана функция send_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54848), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'sender': 'vlad', 'to': 'sergh', 'time': 1688475304.2797885, 'mess_text': 'privet'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-04 15:55:04,279 INFO client.py Отправлено сообщение: {'action': 'message', 'sender': 'vlad', 'to': 'sergh', 'time': 1688475304.2797885, 'mess_text': 'privet'}
+2023-07-04 15:55:04,279 DEBUG client.py Была вызвана функция create_message с параметрами: (<socket.socket fd=500, family=2, type=1, proto=0, laddr=('127.0.0.1', 54848), raddr=('127.0.0.1', 7777)>, 'vlad'), {} Вызов из модуля: __main__ Вызов из функции: self._bootstrap_inner() 
