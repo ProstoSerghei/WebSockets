@@ -1,79 +1,106 @@
-2023-06-28 00:38:09,387 INFO server.py Server is running at 127.0.0.1:7777
-2023-06-28 00:38:31,993 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52686)
-2023-06-28 00:38:32,010 INFO server.py Сообщение {'action': 'presence', 'time': 1687901911.9934597, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52686)
-2023-06-28 00:38:32,010 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901911.9934597, 'user': {'account_name': 'Guest'}}
-2023-06-28 00:38:32,024 DEBUG decos.py Была вызвана функция process_client_message
-с параметрами: ({'action': 'presence', 'time': 1687901911.9934597, 'user': {'account_name': 'Guest'}},), {}
-Вызов из модуля: __main__Вызов из функции: main()Вызов из функции: main
-2023-06-28 00:38:32,025 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-28 00:38:32,025 INFO server.py Соединение с клиентом ('127.0.0.1', 52686) закрывается.
-2023-06-28 00:39:28,879 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52709)
-2023-06-28 00:39:28,880 INFO server.py Сообщение {'action': 'presence', 'time': 1687901968.8794332, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52709)
-2023-06-28 00:39:28,880 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901968.8794332, 'user': {'account_name': 'Guest'}}
-2023-06-28 00:39:28,880 DEBUG decos.py Была вызвана функция process_client_message
-с параметрами: ({'action': 'presence', 'time': 1687901968.8794332, 'user': {'account_name': 'Guest'}},), {}
-Вызов из модуля: __main__Вызов из функции: main()Вызов из функции: main
-2023-06-28 00:39:28,881 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-28 00:39:28,881 INFO server.py Соединение с клиентом ('127.0.0.1', 52709) закрывается.
-2023-06-28 00:39:36,821 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52713)
-2023-06-28 00:39:36,822 INFO server.py Сообщение {'action': 'presence', 'time': 1687901976.8213246, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52713)
-2023-06-28 00:39:36,822 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901976.8213246, 'user': {'account_name': 'Guest'}}
-2023-06-28 00:39:36,823 DEBUG decos.py Была вызвана функция process_client_message
-с параметрами: ({'action': 'presence', 'time': 1687901976.8213246, 'user': {'account_name': 'Guest'}},), {}
-Вызов из модуля: __main__Вызов из функции: main()Вызов из функции: main
-2023-06-28 00:39:36,823 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-28 00:39:36,823 INFO server.py Соединение с клиентом ('127.0.0.1', 52713) закрывается.
-2023-06-28 00:39:46,771 INFO server.py Server is running at 127.0.0.1:7777
-2023-06-28 00:39:49,324 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52719)
-2023-06-28 00:39:49,325 INFO server.py Сообщение {'action': 'presence', 'time': 1687901989.32435, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52719)
-2023-06-28 00:39:49,325 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687901989.32435, 'user': {'account_name': 'Guest'}}
-2023-06-28 00:39:49,325 DEBUG server.py Была вызвана функция process_client_message
-с параметрами: ({'action': 'presence', 'time': 1687901989.32435, 'user': {'account_name': 'Guest'}},), {}
-Вызов из модуля: __main__Вызов из функции: main()
-2023-06-28 00:39:49,325 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-28 00:39:49,325 INFO server.py Соединение с клиентом ('127.0.0.1', 52719) закрывается.
-2023-06-28 00:40:35,497 INFO server.py Server is running at 127.0.0.1:7777
-2023-06-28 00:40:38,140 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52743)
-2023-06-28 00:40:38,141 INFO server.py Сообщение {'action': 'presence', 'time': 1687902038.1401205, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 52743)
-2023-06-28 00:40:38,141 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687902038.1401205, 'user': {'account_name': 'Guest'}}
-2023-06-28 00:40:38,142 DEBUG server.py 
-Была вызвана функция process_client_message
-с параметрами: ({'action': 'presence', 'time': 1687902038.1401205, 'user': {'account_name': 'Guest'}},), {}
-Вызов из модуля: __main__
-Вызов из функции: main()
-
-2023-06-28 00:40:38,142 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-28 00:40:38,142 INFO server.py Соединение с клиентом ('127.0.0.1', 52743) закрывается.
-2023-06-28 00:51:04,664 INFO server.py Server is running at 127.0.0.1:7777
-2023-06-28 00:51:09,612 INFO server.py Установлено соедение с ПК ('127.0.0.1', 53082)
-2023-06-28 00:51:09,613 DEBUG server.py 
-Была вызвана функция get_message
-с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53082)>,), {}
-Вызов из модуля: common.utils
-Вызов из функции: main()
-
-2023-06-28 00:51:09,613 INFO server.py Сообщение {'action': 'presence', 'time': 1687902669.6125278, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 53082)
-2023-06-28 00:51:09,613 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687902669.6125278, 'user': {'account_name': 'Guest'}}
-2023-06-28 00:51:09,613 DEBUG server.py 
-Была вызвана функция process_client_message
-с параметрами: ({'action': 'presence', 'time': 1687902669.6125278, 'user': {'account_name': 'Guest'}},), {}
-Вызов из модуля: __main__
-Вызов из функции: main()
-
-2023-06-28 00:51:09,613 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-28 00:51:09,613 DEBUG server.py 
-Была вызвана функция send_message
-с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53082)>, {'response': 200}), {}
-Вызов из модуля: common.utils
-Вызов из функции: main()
-
-2023-06-28 00:51:09,613 INFO server.py Соединение с клиентом ('127.0.0.1', 53082) закрывается.
-2023-06-28 00:52:38,837 INFO server.py Server is running at 127.0.0.1:7777
-2023-06-28 00:52:41,132 INFO server.py Установлено соедение с ПК ('127.0.0.1', 53123)
-2023-06-28 00:52:41,133 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53123)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
-2023-06-28 00:52:41,133 INFO server.py Сообщение {'action': 'presence', 'time': 1687902761.1321042, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 53123)
-2023-06-28 00:52:41,133 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1687902761.1321042, 'user': {'account_name': 'Guest'}}
-2023-06-28 00:52:41,133 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1687902761.1321042, 'user': {'account_name': 'Guest'}},), {} Вызов из модуля: __main__ Вызов из функции: main() 
-2023-06-28 00:52:41,133 INFO server.py Cформирован ответ клиенту {'response': 200}
-2023-06-28 00:52:41,133 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=440, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53123)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
-2023-06-28 00:52:41,133 INFO server.py Соединение с клиентом ('127.0.0.1', 53123) закрывается.
+2023-07-04 12:28:52,011 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:28:52,012 INFO server.py Server is running at :7777
+2023-07-04 12:29:20,673 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:29:20,673 INFO server.py Server is running at :7777
+2023-07-04 12:29:21,026 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54681)
+2023-07-04 12:29:21,027 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=312, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54681)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:21,027 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688462961.026572, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:29:21,028 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=312, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54681)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:21,028 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688462961.026572, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=312, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54681)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:29:21,360 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54682)
+2023-07-04 12:29:21,690 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54683)
+2023-07-04 12:29:21,691 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=320, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54682)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:21,691 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688462961.3601134, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:29:21,691 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=320, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54682)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:21,691 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688462961.3601134, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=320, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54682)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:29:22,030 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54684)
+2023-07-04 12:29:22,031 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54683)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:22,031 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688462961.6906252, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:29:22,031 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54683)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:22,032 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688462961.6906252, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54683)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:29:22,401 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54685)
+2023-07-04 12:29:22,401 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54684)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:22,401 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688462962.0301018, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:29:22,401 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54684)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:22,402 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688462962.0301018, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54684)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:29:22,809 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54686)
+2023-07-04 12:29:22,810 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=464, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54685)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:22,810 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688462962.4017568, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:29:22,811 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=464, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54685)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:22,811 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688462962.4017568, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=464, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54685)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:29:23,150 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54687)
+2023-07-04 12:29:23,150 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=476, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54686)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:23,151 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688462962.8093324, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:29:23,151 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=476, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54686)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:23,151 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688462962.8093324, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=476, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54686)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:29:23,658 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=380, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54687)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:23,658 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688462963.150723, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:29:23,658 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=380, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54687)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:29:23,659 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688462963.150723, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=380, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54687)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:30:44,257 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=320, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54682)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:30:44,257 DEBUG server.py Разбор сообщения: {'action': 'message', 'time': 1688463044.187656, 'account_name': 'Guest', 'mess_text': 'Привет'}
+2023-07-04 12:30:44,257 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'message', 'time': 1688463044.187656, 'account_name': 'Guest', 'mess_text': 'Привет'}, [('Guest', 'Привет')], <socket.socket fd=320, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54682)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:30:44,259 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=312, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54681)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463044.2579658, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:30:44,259 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=320, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54682)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463044.2579658, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:30:44,259 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=472, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54683)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463044.2579658, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:30:44,259 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54684)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463044.2579658, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:30:44,260 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=464, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54685)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463044.2579658, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:30:44,260 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=476, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54686)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463044.2579658, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:30:44,260 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=380, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54687)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463044.2579658, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:39,391 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:32:39,391 INFO server.py Server is running at :7777
+2023-07-04 12:32:39,757 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54768)
+2023-07-04 12:32:40,132 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54769)
+2023-07-04 12:32:40,132 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=332, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54768)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:40,132 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688463159.757447, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:32:40,132 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=332, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54768)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:40,133 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688463159.757447, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=332, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54768)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:32:40,498 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54770)
+2023-07-04 12:32:40,499 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=420, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54769)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:40,499 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688463160.131676, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:32:40,499 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=420, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54769)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:40,499 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688463160.131676, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=420, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54769)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:32:40,832 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54772)
+2023-07-04 12:32:40,832 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=352, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54770)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:40,833 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688463160.498808, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:32:40,833 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=352, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54770)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:40,833 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688463160.498808, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=352, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54770)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:32:41,179 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54773)
+2023-07-04 12:32:41,179 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54772)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:41,179 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688463160.8320715, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:32:41,180 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54772)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:41,180 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688463160.8320715, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54772)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:32:41,523 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54774)
+2023-07-04 12:32:41,523 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54773)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:41,523 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688463161.1792235, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:32:41,524 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54773)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:41,524 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688463161.1792235, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54773)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:32:41,820 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54775)
+2023-07-04 12:32:41,820 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54774)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:41,820 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688463161.5230532, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:32:41,820 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54774)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:41,821 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688463161.5230532, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54774)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:32:42,331 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=484, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54775)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:42,331 DEBUG server.py Разбор сообщения: {'action': 'presence', 'time': 1688463161.8195846, 'user': {'account_name': 'Guest'}}
+2023-07-04 12:32:42,331 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=484, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54775)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:32:42,332 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'presence', 'time': 1688463161.8195846, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=484, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54775)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:33:22,371 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=332, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54768)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:22,371 DEBUG server.py Разбор сообщения: {'action': 'message', 'time': 1688463202.245266, 'account_name': 'Guest', 'mess_text': 'Привет'}
+2023-07-04 12:33:22,372 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'message', 'time': 1688463202.245266, 'account_name': 'Guest', 'mess_text': 'Привет'}, [('Guest', 'Привет')], <socket.socket fd=332, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54768)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:33:22,372 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=332, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54768)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463202.3726692, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:22,372 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=420, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54769)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463202.3726692, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:22,373 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=352, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54770)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463202.3726692, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:22,373 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54772)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463202.3726692, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:22,373 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54773)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463202.3726692, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:22,373 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54774)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463202.3726692, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:22,374 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=484, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54775)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463202.3726692, 'mess_text': 'Привет'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,495 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=420, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54769)>,), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,495 DEBUG server.py Разбор сообщения: {'action': 'message', 'time': 1688463210.2844374, 'account_name': 'Guest', 'mess_text': 'Как дела?'}
+2023-07-04 12:33:30,495 DEBUG server.py Была вызвана функция process_client_message с параметрами: ({'action': 'message', 'time': 1688463210.2844374, 'account_name': 'Guest', 'mess_text': 'Как дела?'}, [('Guest', 'Как дела?')], <socket.socket fd=420, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54769)>), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-04 12:33:30,496 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=332, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54768)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,496 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=420, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54769)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,496 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=352, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54770)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,496 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=480, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54772)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,497 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=368, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54773)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,497 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=488, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54774)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
+2023-07-04 12:33:30,497 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=484, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54775)>, {'action': 'message', 'sender': 'Guest', 'time': 1688463210.495574, 'mess_text': 'Как дела?'}), {} Вызов из модуля: common.utils Вызов из функции: main() 
