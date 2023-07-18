@@ -1,0 +1,18 @@
+2023-06-27 20:13:26,423 CRITICAL server_log_config.py Критическая ошибка
+2023-06-27 20:13:26,425 ERROR server_log_config.py Ошибка
+2023-06-27 20:13:26,425 DEBUG server_log_config.py Отладочная информация
+2023-06-27 20:13:26,425 INFO server_log_config.py Информационное сообщение
+2023-06-27 20:13:36,402 CRITICAL server_log_config.py Критическая ошибка
+2023-06-27 20:13:36,403 ERROR server_log_config.py Ошибка
+2023-06-27 20:13:36,403 DEBUG server_log_config.py Отладочная информация
+2023-06-27 20:13:36,403 INFO server_log_config.py Информационное сообщение
+2023-06-27 20:13:43,233 CRITICAL server_log_config.py Критическая ошибка
+2023-06-27 20:13:43,233 ERROR server_log_config.py Ошибка
+2023-06-27 20:13:43,234 DEBUG server_log_config.py Отладочная информация
+2023-06-27 20:13:43,234 INFO server_log_config.py Информационное сообщение
+2023-06-27 20:30:28,958 INFO server.py Server is running at 127.0.0.1:7777
+2023-06-27 20:30:53,205 INFO server.py Установлено соедение с ПК ('127.0.0.1', 61974)
+2023-06-27 20:30:53,205 INFO server.py Сообщение {'action': 'presence', 'time': 1687887053.2056522, 'user': {'account_name': 'Guest'}}, от клиента ('127.0.0.1', 61974)
+2023-06-27 20:30:53,205 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1687887053.2056522, 'user': {'account_name': 'Guest'}}
+2023-06-27 20:30:53,205 INFO server.py Cформирован ответ клиенту {'response': 200}
+2023-06-27 20:30:53,207 INFO server.py Соединение с клиентом ('127.0.0.1', 61974) закрывается.
