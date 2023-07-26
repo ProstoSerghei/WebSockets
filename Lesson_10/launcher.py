@@ -1,7 +1,12 @@
 import subprocess
+from os import path
+
+
+
 
 PROCESS = []
-
+path_to_python = path.abspath('../venv/Scripts/python.exe')
+path_to_server = path.abspath('./server.py')
 while True:
     ACTION = input('Выберите действие: q - выход, '
                    's - запустить сервер и клиенты, x - закрыть все окна: ')
@@ -9,8 +14,9 @@ while True:
     if ACTION == 'q':
         break
     elif ACTION == 's':
-        PROCESS.append(subprocess.Popen('python server.py',
-                                        creationflags=subprocess.CREATE_NEW_CONSOLE))
+        PROCESS.append(subprocess.Popen([path_to_python, path_to_server],
+                                        creationflags=subprocess.CREATE_NEW_CONSOLE)
+                                        )
         PROCESS.append(subprocess.Popen('python client.py -n serghei',
                                             creationflags=subprocess.CREATE_NEW_CONSOLE))
         PROCESS.append(subprocess.Popen('python client.py -n vlad',
