@@ -40,3 +40,6 @@ RESPONSE_400 = {
     RESPONSE: 400,
     ERROR: None
 }
+
+# Путь к БД
+SERVER_DATABASE = 'sqlite:///db.sqlite'
