@@ -2,7 +2,7 @@ import datetime
 
 from sqlalchemy.orm import sessionmaker, registry as mapper
 from sqlalchemy import create_engine, Table, Column, Integer, \
-    String, MetaData, ForeignKey, DateTime
+    String, ForeignKey, DateTime
 
 from common.variables import *
 
@@ -32,8 +32,21 @@ class ServerStorage:
             self.ip = ip
             self.port = port
     
-    def __init__(self):
-        self.database_engine = create_engine(SERVER_DATABASE, echo=False, pool_recycle=7200)
+    class UsersContacts:
+        def __init__(self, user, contact):
+            self.id = None
+            self.user = user
+            self.contact = contact
+
+    class UsersHistory:
+        def __init__(self, user):
+            self.id = None
+            self.user = user
+            self.sent = 0
+            self.accepted = 0
+    
+    def __init__(self, path):
+        self.database_engine = create_engine(f'sqlite:///{path}', echo=False, pool_recycle=7200)
 
         self.mapper = mapper()
 
@@ -59,11 +72,26 @@ class ServerStorage:
                                    Column('port', String)
                                    )
         
+        contacts = Table('Contacts', self.mapper.metadata,
+                         Column('id', Integer, primary_key=True),
+                         Column('user', ForeignKey('Users.id')),
+                         Column('contact', ForeignKey('Users.id'))
+                         )
+        
+        users_history_table = Table('History', self.mapper.metadata,
+                                    Column('id', Integer, primary_key=True),
+                                    Column('user', ForeignKey('Users.id')),
+                                    Column('sent', Integer),
+                                    Column('accepted', Integer)
+                                    )
+        
         self.mapper.metadata.create_all(self.database_engine)
 
         self.mapper.map_imperatively(self.AllUsers, users_table)
         self.mapper.map_imperatively(self.ActiveUsers, active_users_table)
         self.mapper.map_imperatively(self.LoginHistory, user_login_history)
+        self.mapper.map_imperatively(self.UsersContacts, contacts)
+        self.mapper.map_imperatively(self.UsersHistory, users_history_table)
 
         Session = sessionmaker(bind=self.database_engine)
         self.session = Session()
@@ -72,8 +100,6 @@ class ServerStorage:
         self.session.commit()
 
     def user_login(self, username, ip_address, port):
-        print(username, ip_address, port)
-
         rez = self.session.query(self.AllUsers).filter_by(name=username)
 
         if rez.count():
@@ -83,7 +109,9 @@ class ServerStorage:
             user = self.AllUsers(username)
             self.session.add(user)
             self.session.commit()
-        
+            user_in_history = self.UsersHistory(user.id)
+            self.session.add(user_in_history)
+
         new_active_user = self.ActiveUsers(user.id, ip_address, port, datetime.datetime.now())
         self.session.add(new_active_user)
 
@@ -97,6 +125,40 @@ class ServerStorage:
 
         self.session.query(self.ActiveUsers).filter_by(user=user.id).delete()
 
+        self.session.commit()
+
+    def process_message(self, sender, recipient):
+        sender = self.session.query(self.AllUsers).filter_by(name=sender).first().id
+        recipient = self.session.query(self.AllUsers).filter_by(name=recipient).first().id
+        sender_row = self.session.query(self.UsersHistory).filter_by(user=sender).first()
+        sender_row.sent += 1
+        recipient_row = self.session.query(self.UsersHistory).filter_by(user=recipient).first()
+        recipient_row.accepted += 1
+
+        self.session.commit()
+
+    def add_contact(self, user, contact):
+        user = self.session.query(self.AllUsers).filter_by(name=user).first()
+        contact = self.session.query(self.AllUsers).filter_by(name=contact).first()
+
+        if not contact or self.session.query(self.UsersContacts).filter_by(user=user.id, contact=contact.id).count():
+            return
+
+        contact_row = self.UsersContacts(user.id, contact.id)
+        self.session.add(contact_row)
+        self.session.commit()
+
+    def remove_contact(self, user, contact):
+        user = self.session.query(self.AllUsers).filter_by(name=user).first()
+        contact = self.session.query(self.AllUsers).filter_by(name=contact).first()
+
+        if not contact:
+            return
+
+        print(self.session.query(self.UsersContacts).filter(
+            self.UsersContacts.user == user.id,
+            self.UsersContacts.contact == contact.id
+        ).delete())
         self.session.commit()
 
     def users_list(self):
@@ -127,20 +189,32 @@ class ServerStorage:
         if username:
             query = query.filter(self.AllUsers.name == username)
         return query.all()
+    
+    def get_contacts(self, username):
+        user = self.session.query(self.AllUsers).filter_by(name=username).one()
+
+        query = self.session.query(self.UsersContacts, self.AllUsers.name). \
+            filter_by(user=user.id). \
+            join(self.AllUsers, self.UsersContacts.contact == self.AllUsers.id)
+
+        return [contact[1] for contact in query.all()]
+
+    def message_history(self):
+        query = self.session.query(
+            self.AllUsers.name,
+            self.AllUsers.last_login,
+            self.UsersHistory.sent,
+            self.UsersHistory.accepted
+        ).join(self.AllUsers)
+        return query.all()
 
 
-if __name__ == '__main__':
-    test_db = ServerStorage()
-    # выполняем 'подключение' пользователя
-    test_db.user_login('client_1', '192.168.1.4', 8888)
-    test_db.user_login('client_2', '192.168.1.5', 7777)
-    # выводим список кортежей - активных пользователей
-    print(test_db.active_users_list())
-    # выполянем 'отключение' пользователя
-    test_db.user_logout('client_1')
-    # выводим список активных пользователей
-    print(test_db.active_users_list())
-    # запрашиваем историю входов по пользователю
-    test_db.login_history('client_1')
-    # выводим список известных пользователей
-    print(test_db.users_list())
+'''
+Testing output:
+
+client_1 192.168.1.4 8888
+client_2 192.168.1.5 7777
+[('client_1', '192.168.1.4', 8888, datetime.datetime(2023, 7, 26, 21, 39, 13, 501691)), ('client_2', '192.168.1.5', 7777, datetime.datetime(2023, 7, 26, 21, 39, 13, 517230))]
+[('client_2', '192.168.1.5', 7777, datetime.datetime(2023, 7, 26, 21, 39, 13, 517230))]
+[('client_1', datetime.datetime(2023, 7, 26, 21, 39, 13, 494679)), ('client_2', datetime.datetime(2023, 7, 26, 21, 39, 13, 510209))]
+'''

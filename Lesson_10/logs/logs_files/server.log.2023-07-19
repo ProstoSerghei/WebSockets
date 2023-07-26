@@ -1,0 +1,180 @@
+2023-07-19 00:28:02,442 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:28:02,469 INFO server.py Запущен сервер: :7777
+2023-07-19 00:28:27,711 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: None, 
+2023-07-19 00:28:54,785 INFO server.py Запущен сервер: :7777
+2023-07-19 00:29:05,076 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: None, 
+2023-07-19 00:29:07,926 INFO server.py Запущен сервер: :7777
+2023-07-19 00:29:14,887 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: None, 
+2023-07-19 00:29:20,403 INFO server.py Запущен сервер: :7777
+2023-07-19 00:32:12,092 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:32:12,117 INFO server.py Запущен сервер: :7777
+2023-07-19 00:35:52,241 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:35:52,267 INFO server.py Запущен сервер: :7777
+2023-07-19 00:36:12,041 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:36:12,069 INFO server.py Запущен сервер: :7777
+2023-07-19 00:36:19,217 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: None, 
+2023-07-19 00:36:25,407 INFO server.py Запущен сервер: :7777
+2023-07-19 00:38:03,149 INFO server.py Установлено соединение с ('127.0.0.1', 58843)
+2023-07-19 00:38:03,661 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=1140, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58843)>,), {} Вызов из модуля: common.utils Вызов из функции: None, 
+2023-07-19 00:38:03,661 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689716283.149516, 'user': {'account_name': 'vlad'}}
+2023-07-19 00:38:03,694 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=1140, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58843)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: None, 
+2023-07-19 00:41:18,075 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:41:18,101 INFO server.py Запущен сервер: :7777
+2023-07-19 00:45:48,658 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:45:48,683 INFO server.py Запущен сервер: :7777
+2023-07-19 00:46:10,919 INFO server.py Установлено соединение с ('127.0.0.1', 59058)
+2023-07-19 00:46:11,423 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=764, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59058)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:46:11,425 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689716770.919911, 'user': {'account_name': 'vlad'}}
+2023-07-19 00:46:11,443 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=764, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59058)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:47:32,931 INFO server.py Установлено соединение с ('127.0.0.1', 59089)
+2023-07-19 00:47:33,438 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59089)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:47:33,438 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689716852.9315789, 'user': {'account_name': 'serghei'}}
+2023-07-19 00:47:33,450 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59089)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:47:42,143 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59089)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:47:42,143 INFO server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'serghei', 'to': 'vlad', 'time': 1689716861.6304424, 'mess_text': 'Privet'}
+2023-07-19 00:47:42,144 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=764, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59058)>, {'action': 'message', 'sender': 'serghei', 'to': 'vlad', 'time': 1689716861.6304424, 'mess_text': 'Privet'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:47:42,144 INFO server.py Отправлено сообщение пользователю vlad от пользователя serghei.
+2023-07-19 00:58:21,252 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:58:21,288 INFO server.py Запущен сервер: :7777
+2023-07-19 00:58:21,405 INFO server.py Установлено соединение с ('127.0.0.1', 59454)
+2023-07-19 00:58:21,746 INFO server.py Установлено соединение с ('127.0.0.1', 59455)
+2023-07-19 00:58:21,747 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=556, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59454)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:58:21,748 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717501.4058514, 'user': {'account_name': 'serghei'}}
+2023-07-19 00:58:21,767 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=556, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59454)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:58:22,065 INFO server.py Установлено соединение с ('127.0.0.1', 59456)
+2023-07-19 00:58:22,066 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=496, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59455)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:58:22,066 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717501.746611, 'user': {'account_name': 'vlad'}}
+2023-07-19 00:58:22,074 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=496, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59455)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:58:22,577 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=596, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59456)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:58:22,577 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717502.0653188, 'user': {'account_name': 'petro'}}
+2023-07-19 00:58:22,592 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=596, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59456)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:58:26,690 INFO server.py ('127.0.0.1', 59456) отключился от сервера.
+2023-07-19 00:58:27,203 INFO server.py ('127.0.0.1', 59455) отключился от сервера.
+2023-07-19 00:58:27,703 INFO server.py ('127.0.0.1', 59454) отключился от сервера.
+2023-07-19 00:59:04,922 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 00:59:04,958 INFO server.py Запущен сервер: :7777
+2023-07-19 00:59:05,011 INFO server.py Установлено соединение с ('127.0.0.1', 59475)
+2023-07-19 00:59:05,335 INFO server.py Установлено соединение с ('127.0.0.1', 59476)
+2023-07-19 00:59:05,336 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=772, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59475)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:59:05,336 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717545.01117, 'user': {'account_name': 'serghei'}}
+2023-07-19 00:59:05,355 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=772, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59475)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:59:05,648 INFO server.py Установлено соединение с ('127.0.0.1', 59477)
+2023-07-19 00:59:05,648 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=776, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59476)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:59:05,648 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717545.3356915, 'user': {'account_name': 'vlad'}}
+2023-07-19 00:59:05,657 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=776, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59476)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:59:06,170 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=376, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59477)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 00:59:06,170 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717545.648566, 'user': {'account_name': 'petro'}}
+2023-07-19 00:59:06,180 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=376, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59477)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:37,730 INFO server.py Установлено соединение с ('127.0.0.1', 59610)
+2023-07-19 01:04:38,048 INFO server.py Установлено соединение с ('127.0.0.1', 59611)
+2023-07-19 01:04:38,049 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59610)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:38,049 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717877.7307649, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:04:38,049 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59610)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:38,364 INFO server.py Установлено соединение с ('127.0.0.1', 59612)
+2023-07-19 01:04:38,365 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59611)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:38,365 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717878.0485086, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:04:38,365 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59611)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:38,867 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59612)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:38,867 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717878.3640213, 'user': {'account_name': 'petro'}}
+2023-07-19 01:04:38,868 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59612)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:57,301 INFO server.py Установлено соединение с ('127.0.0.1', 59621)
+2023-07-19 01:04:57,617 INFO server.py Установлено соединение с ('127.0.0.1', 59622)
+2023-07-19 01:04:57,618 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59621)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:57,618 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717897.3011093, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:04:57,618 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59621)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:57,932 INFO server.py Установлено соединение с ('127.0.0.1', 59623)
+2023-07-19 01:04:57,932 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=780, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59622)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:57,932 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717897.6165607, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:04:57,932 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=780, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59622)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:58,440 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59623)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:04:58,440 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689717897.9312835, 'user': {'account_name': 'petro'}}
+2023-07-19 01:04:58,441 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59623)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:07:49,837 INFO server.py ('127.0.0.1', 59475) отключился от сервера.
+2023-07-19 01:07:50,867 INFO server.py ('127.0.0.1', 59476) отключился от сервера.
+2023-07-19 01:07:51,367 INFO server.py ('127.0.0.1', 59477) отключился от сервера.
+2023-07-19 01:07:55,525 INFO server.py Установлено соединение с ('127.0.0.1', 59691)
+2023-07-19 01:07:55,845 INFO server.py Установлено соединение с ('127.0.0.1', 59692)
+2023-07-19 01:07:55,846 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=780, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59691)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:07:55,846 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718075.5253413, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:07:55,846 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=780, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59691)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:07:56,163 INFO server.py Установлено соединение с ('127.0.0.1', 59694)
+2023-07-19 01:07:56,163 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=512, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59692)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:07:56,163 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718075.845383, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:07:56,164 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=512, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59692)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:07:56,676 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59694)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:07:56,676 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718076.1635082, 'user': {'account_name': 'petro'}}
+2023-07-19 01:07:56,677 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59694)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:10:05,094 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 01:10:05,127 INFO server.py Запущен сервер: :7777
+2023-07-19 01:10:05,286 INFO server.py Установлено соединение с ('127.0.0.1', 59752)
+2023-07-19 01:10:05,604 INFO server.py Установлено соединение с ('127.0.0.1', 59753)
+2023-07-19 01:10:05,605 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59752)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:10:05,605 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718205.2864184, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:10:05,605 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59752)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:10:05,920 INFO server.py Установлено соединение с ('127.0.0.1', 59754)
+2023-07-19 01:10:05,920 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59753)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:10:05,920 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718205.6046185, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:10:05,921 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=656, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59753)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:10:06,429 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=512, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59754)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:10:06,429 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718205.920544, 'user': {'account_name': 'petro'}}
+2023-07-19 01:10:06,430 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=512, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59754)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:16:20,696 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 01:16:20,729 INFO server.py Запущен сервер: :7777
+2023-07-19 01:16:20,865 INFO server.py Установлено соединение с ('127.0.0.1', 59929)
+2023-07-19 01:16:21,224 INFO server.py Установлено соединение с ('127.0.0.1', 59930)
+2023-07-19 01:16:21,224 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59929)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:16:21,224 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718580.8658078, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:16:21,225 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59929)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:16:21,560 INFO server.py Установлено соединение с ('127.0.0.1', 59931)
+2023-07-19 01:16:21,560 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=652, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59930)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:16:21,560 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718581.2244694, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:16:21,560 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=652, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59930)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:16:22,062 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59931)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:16:22,062 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718581.560948, 'user': {'account_name': 'petro'}}
+2023-07-19 01:16:22,063 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=784, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59931)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:17:21,171 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 01:17:21,213 INFO server.py Запущен сервер: :7777
+2023-07-19 01:17:21,348 INFO server.py Установлено соединение с ('127.0.0.1', 59985)
+2023-07-19 01:17:21,673 INFO server.py Установлено соединение с ('127.0.0.1', 59987)
+2023-07-19 01:17:21,674 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59985)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:17:21,674 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718641.3480022, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:17:21,675 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=392, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59985)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:17:21,993 INFO server.py Установлено соединение с ('127.0.0.1', 59988)
+2023-07-19 01:17:21,994 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=604, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59987)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:17:21,994 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718641.6731434, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:17:21,994 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=604, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59987)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:17:22,504 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=652, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59988)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:17:22,504 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718641.993237, 'user': {'account_name': 'petro'}}
+2023-07-19 01:17:22,504 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=652, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59988)>, {'response': 400, 'error': 'Имя уже занято'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:18:15,076 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 01:18:15,118 INFO server.py Запущен сервер: :7777
+2023-07-19 01:18:15,235 INFO server.py Установлено соединение с ('127.0.0.1', 60011)
+2023-07-19 01:18:15,564 INFO server.py Установлено соединение с ('127.0.0.1', 60012)
+2023-07-19 01:18:15,564 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=664, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60011)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:18:15,565 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718695.2352214, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:18:15,583 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=664, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60011)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:18:15,894 INFO server.py Установлено соединение с ('127.0.0.1', 60013)
+2023-07-19 01:18:15,894 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=696, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60012)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:18:15,894 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718695.564966, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:18:15,902 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=696, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60012)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:18:16,409 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=764, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60013)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:18:16,409 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718695.894185, 'user': {'account_name': 'petro'}}
+2023-07-19 01:18:16,418 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=764, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60013)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:03,021 DEBUG server.py Была вызвана функция arg_parser с параметрами: (), {} Вызов из модуля: __main__ Вызов из функции: main() 
+2023-07-19 01:19:03,047 INFO server.py Запущен сервер: :7777
+2023-07-19 01:19:03,351 INFO server.py Установлено соединение с ('127.0.0.1', 60036)
+2023-07-19 01:19:03,483 INFO server.py Установлено соединение с ('127.0.0.1', 60035)
+2023-07-19 01:19:03,484 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=572, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60036)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:03,484 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718743.3515937, 'user': {'account_name': 'vlad'}}
+2023-07-19 01:19:03,502 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=572, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60036)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:03,668 INFO server.py Установлено соединение с ('127.0.0.1', 60037)
+2023-07-19 01:19:03,669 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=612, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60035)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:03,669 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718743.4836085, 'user': {'account_name': 'serghei'}}
+2023-07-19 01:19:03,677 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=612, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60035)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:04,184 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=732, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60037)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:04,184 INFO server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689718743.6686444, 'user': {'account_name': 'petro'}}
+2023-07-19 01:19:04,192 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=732, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60037)>, {'response': 200}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:35,414 DEBUG server.py Была вызвана функция get_message с параметрами: (<socket.socket fd=572, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60036)>,), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:35,414 INFO server.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'vlad', 'to': 'petro', 'time': 1689718775.3594573, 'mess_text': 'Privet'}
+2023-07-19 01:19:35,414 DEBUG server.py Была вызвана функция send_message с параметрами: (<socket.socket fd=732, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60037)>, {'action': 'message', 'sender': 'vlad', 'to': 'petro', 'time': 1689718775.3594573, 'mess_text': 'Privet'}), {} Вызов из модуля: common.utils Вызов из функции: self._bootstrap_inner() 
+2023-07-19 01:19:35,414 INFO server.py Отправлено сообщение пользователю petro от пользователя vlad.
