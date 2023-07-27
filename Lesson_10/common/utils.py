@@ -21,8 +21,8 @@ def get_message(sock):
         response = json.loads(json_response)
         if isinstance(response, dict):
             return response
-        raise ValueError
-    raise ValueError
+        else:
+            print(response)
 
 @log
 def send_message(sock, message):
