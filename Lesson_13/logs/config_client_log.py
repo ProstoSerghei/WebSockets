@@ -20,6 +20,7 @@ logger.addHandler(steam)
 logger.addHandler(log_file)
 logger.setLevel(LOGGING_LEVEL)
 
+# отладка
 if __name__ == '__main__':
     logger.critical('Test critical event')
     logger.error('Test error ivent')
