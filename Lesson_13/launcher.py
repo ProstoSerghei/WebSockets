@@ -15,15 +15,10 @@ def main():
                     'python server.py',
                     creationflags=subprocess.CREATE_NEW_CONSOLE))
         elif action == 'k':
-            print('Убедитесь, что на сервере зарегистрировано необходимо количество клиентов с паролем 123456.')
-            print('Первый запуск может быть достаточно долгим из-за генерации ключей!')
-            clients_count = int(
-                input('Введите количество тестовых клиентов для запуска: '))
-            for i in range(clients_count):
-                process.append(
-                    subprocess.Popen(
-                        f'python client.py -n test{i + 1} -p 123456',
-                        creationflags=subprocess.CREATE_NEW_CONSOLE))
+            process.append(
+                subprocess.Popen(
+                    f'python client.py -n serghei -p 123456',
+                    creationflags=subprocess.CREATE_NEW_CONSOLE))
         elif action == 'x':
             while process:
                 process.pop().kill()
